@@ -1,0 +1,17 @@
+Package: depkg
+Version: 0.1.0
+Title: Dependent package for exploring an testing an S4 method dispatch issue
+Authors@R: c(person("Robert", "Castelo", role=c("aut", "cre"), email="robert.castelo@upf.edu"),
+             person("Axel", "Klenk", role="ctb", email="axelvolker.klenk@upf.edu"))
+Depends: R (>= 3.5.0), expkg
+Imports: methods, Biobase, SummarizedExperiment, Matrix (>= 1.5-0),
+         SingleCellExperiment, SpatialExperiment, HDF5Array
+Suggests: BiocGenerics
+Description: Dependent example package for exploring an testing an S4 method dispatch issue
+License: GPL (>= 2)
+VignetteBuilder: knitr
+URL: https://github.com/axelklenk/depkg
+BugReports: https://github.com/axelklenk/depkg/issues
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
