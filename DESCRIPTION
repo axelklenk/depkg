@@ -1,14 +1,11 @@
 Package: depkg
-Version: 0.1.2
-Title: Dependent package for exploring an testing an S4 method dispatch issue
+Version: 0.1.3
+Title: Dependent package for exploring and testing an S4 method dispatch issue
 Authors@R: c(person("Robert", "Castelo", role=c("aut", "cre"), email="robert.castelo@upf.edu"),
              person("Axel", "Klenk", role="ctb", email="axelvolker.klenk@upf.edu"))
-Depends: R (>= 3.5.0), methods, expkg
-Description: Dependent example package for exploring an testing an S4 method dispatch issue
+Imports: methods
+Description: Dependent example package for exploring and testing an S4 method dispatch issue
 License: GPL (>= 2)
-VignetteBuilder: knitr
 URL: https://github.com/axelklenk/depkg
 BugReports: https://github.com/axelklenk/depkg/issues
 Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
